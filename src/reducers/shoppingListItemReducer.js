@@ -14,6 +14,7 @@ export default function shoppingListItemReducer(
       }
  
     default:
+    console.log('Initial state.items.length: %s', state.items.length)
       return state;
   }
 }
